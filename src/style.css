@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  background: linear-gradient(135deg, #f1f5f9, #e2e8f0);
+  color: #1e293b;
+}
+
+/* Card central */
+.container {
+  max-width: 420px;
+  margin: 80px auto;
+  background: #ffffff;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.08);
+}
+
+/* Títulos */
+h1 {
+  margin-top: 0;
+  font-size: 24px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 14px;
+  color: #64748b;
+  margin-bottom: 24px;
+}
+
+/* Inputs */
+label {
+  display: block;
+  font-size: 14px;
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  font-size: 15px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+/* Botão */
+button {
+  width: 100%;
+  margin-top: 24px;
+  padding: 14px;
+  background: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+/* Resultado */
+.resultado {
+  margin-top: 24px;
+  padding: 16px;
+  background: #f8fafc;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #0f172a;
+}
